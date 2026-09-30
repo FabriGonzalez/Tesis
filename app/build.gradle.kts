@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.myroutine.tesis_identificador"
-    compileSdk = 35
+    namespace = "com.example.tesis_identificador"
+    compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.myroutine.tesis_identificador"
+        applicationId = "com.example.tesis_identificador"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -56,4 +56,6 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    implementation("com.microsoft.onnxruntime:onnxruntime-android:latest.release")
 }
