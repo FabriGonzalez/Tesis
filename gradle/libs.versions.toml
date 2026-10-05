@@ -2,7 +2,9 @@
 agp = "8.10.1"
 kotlin = "2.0.21"
 coreKtx = "1.18.0"
+exifinterface = "1.4.1"
 junit = "4.13.2"
+ucrop = "2.2.8"
 junitVersion = "1.3.0"
 espressoCore = "3.7.0"
 lifecycleRuntimeKtx = "2.10.0"
@@ -11,6 +13,8 @@ composeBom = "2024.09.00"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-exifinterface = { group = "androidx.exifinterface", name = "exifinterface", version.ref = "exifinterface" }
+ucrop = { group = "com.github.yalantis", name = "ucrop", version.ref = "ucrop" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
